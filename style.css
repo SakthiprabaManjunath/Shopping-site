@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("paper.gif");
+  background-color:white;
+}
+ 
+h1{
+  text-align:center;
+  background-color:grey;
+  padding:10px;
+  font:italic;
+}
+h4{
+  text-align:center;
+  border: 2px solid grey;
+  margin: 2px;
+  padding: 2px;
+  font:italic;
+  max-width: 260px;
+}
+header {
+  font-family:garamond;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin:30px;
+  
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  border: 2px solid grey;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  max-width: 250px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.price {
+  font-weight: bold;
+  color:red;
+  font:italic;
+}
+
+button {
+  background-color: grey;
+  color: #fff;
+  border: 1px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:grey;
+}
+div{
+  font-family:garamond;
+}
